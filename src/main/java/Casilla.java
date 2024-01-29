@@ -1,7 +1,5 @@
 public class Casilla {
 
-
-    //¿Qué necesitamos saber de la casilla? su posicion y si tiene una mina
     int posFila;
     int posColumna;
     boolean mina;
@@ -11,7 +9,7 @@ public class Casilla {
 
 
     //Constructor de las casillas
-    //Pide posicion de Fila, posicion de Columnas, y si HAY o NO mina
+    //Pide posicion de Fila, posicion de Columnas, si HAY o NO mina y las casillas de alrededor
     public Casilla(int posFila, int posColumna, boolean mina) {
         this.posFila = posFila;
         this.posColumna = posColumna;
